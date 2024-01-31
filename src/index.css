@@ -1,0 +1,148 @@
+body {
+  background: #354649;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.nav a:hover {
+  border-bottom: 2px solid #e0e7e9;
+  color: #e0e7e9;
+}
+.ctn {
+  align-items: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.input_form {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  border-radius: 10px;
+  border: 1px solid white;
+  background: white;
+  outline: none;
+  padding: 5px;
+  color: black;
+  font-size: 18px;
+  width: 600px;
+}
+
+button {
+  margin-left: 20px;
+  border: none;
+  color: #354649;
+  background: #e0e7e9;
+  font-weight: bold;
+  padding: 10px 35px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.spinner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+
+  
+}
+.img-ctn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 80px;
+  margin-top: 100px;
+}
+
+figure img {
+  width: 195px;
+  height: 180px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+figure {
+  border-radius: 10px;
+  background: #354649;
+  margin: 0;
+  border: 1px solid #e0e7e9;
+}
+
+figcaption {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+figcaption a {
+  text-decoration: none;
+  background: #e0e7e9;
+  padding: 8px;
+  color: #354649;
+}
+
+.dropdown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+}
+
+.download_logo img {
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  background: #354649;
+  border-radius: 50px;
+}
+
+.download_logo img:hover {
+  cursor: pointer;
+}
+
+.resolution_links a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+
+.resolution_links a:hover {
+  background: #354649;
+  color: white;
+}
+
+.resolution_links {
+  width: 150px;
+  background: white;
+  border-radius: 10px;
+  display: none;
+  box-shadow: 2px 2px 5px #e0e7e9;
+}
+
+.dropdown:hover .resolution_links {
+  display: block;
+}
+
