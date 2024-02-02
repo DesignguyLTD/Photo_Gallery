@@ -79,6 +79,7 @@ button {
 figure img {
   width: 195px;
   height: 180px;
+  object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
