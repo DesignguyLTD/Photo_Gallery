@@ -59,14 +59,13 @@ button {
   cursor: pointer;
 }
 
-.spinner{
+.spinner {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 100px;
-
-  
 }
+
 .img-ctn {
   display: flex;
   flex-direction: row;
@@ -148,3 +147,65 @@ figcaption a {
   display: block;
 }
 
+@media screen and (max-width: 768px) {
+  .nav {
+    width: 668px;
+  }
+
+  input {
+    font-size: 16px;
+    width: 400px;
+  }
+
+  .resolution_links a {
+    font-size: 14px;
+    padding: 5px;
+  }
+
+  .photographer_url a {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  h1 {
+    font-size: x-large;
+  }
+
+  .nav {
+    width: 320px;
+  }
+
+  .input_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  input {
+    font-size: 16px;
+    width: 250px;
+  }
+
+  button {
+    margin-left: 0px;
+    width: 100px;
+    padding: 9px;
+    margin-top: 20px;
+  }
+
+  .resolution_links {
+    width: 150px;
+  }
+  .resolution_links a {
+    font-size: 12px;
+    padding: 5px;
+  }
+
+  .photographer_url a {
+    font-size: 12px;
+  }
+}
