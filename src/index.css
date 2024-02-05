@@ -77,7 +77,7 @@ button {
 }
 
 figure img {
-  width: 195px;
+  width: 180px;
   height: 180px;
   object-fit: cover;
   border-top-left-radius: 10px;
@@ -87,6 +87,7 @@ figure img {
 figure {
   border-radius: 10px;
   background: #354649;
+  width: 180px;
   margin: 0;
   border: 1px solid #e0e7e9;
 }
@@ -139,8 +140,8 @@ figcaption a {
   width: 150px;
   background: white;
   border-radius: 10px;
+  border: 1px solid grey;
   display: none;
-  box-shadow: 2px 2px 5px #e0e7e9;
 }
 
 .dropdown:hover .resolution_links {
