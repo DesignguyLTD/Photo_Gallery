@@ -15,7 +15,7 @@ const ImageCard = (props) => {
         </div>
         <div className="resolution_links">
           <a
-            href={props.photo.src.large2x}
+            href={props.photo.src.original}
             onClick={(e) => {
               e.preventDefault();
               downloadImage(props.photo.src.large2x);
@@ -46,7 +46,7 @@ const ImageCard = (props) => {
           </a>
         </div>
       </div>
-      <img src={props.photo.src.original} alt={props.photo.alt} />
+      <img src={props.photo.src.small} alt={props.photo.alt} />
       <figcaption>
         <p className="name_of_photographer">{props.photo.photographer}</p>
         <p className="photographer_url">
