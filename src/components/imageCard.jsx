@@ -18,7 +18,7 @@ const ImageCard = (props) => {
             href={props.photo.src.original}
             onClick={(e) => {
               e.preventDefault();
-              downloadImage(props.photo.src.large2x);
+              downloadImage(props.photo.src.original);
             }}
             download
           >
@@ -28,7 +28,7 @@ const ImageCard = (props) => {
             href={props.photo.src.medium}
             onClick={(e) => {
               e.preventDefault();
-              downloadImage(props.photo.src.large2x);
+              downloadImage(props.photo.src.medium);
             }}
             download
           >
@@ -38,7 +38,7 @@ const ImageCard = (props) => {
             href={props.photo.src.small}
             onClick={(e) => {
               e.preventDefault();
-              downloadImage(props.photo.src.large2x);
+              downloadImage(props.photo.src.small);
             }}
             download
           >
