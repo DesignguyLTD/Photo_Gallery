@@ -1,4 +1,7 @@
 #This is the robots.txt file that specifies all crawlers to have accessibility
 
-User-agent: *
+User-agent:*
 Disallow:
+
+Sitemap:https://admirable-gumption-654936.netlify.app/sitemap.xml
+
