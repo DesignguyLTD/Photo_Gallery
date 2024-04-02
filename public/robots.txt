@@ -1,0 +1,4 @@
+#This is the robots.txt file that specifies all crawlers to have accessibility
+
+User-agent: *
+Disallow:
